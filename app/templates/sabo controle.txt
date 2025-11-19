@@ -1,0 +1,41 @@
+
+
+635	Jogo de Juntas do Compressor de Ar Monocilíndrico [Com/ Sem Retentor] do [Veículo] - [Marca] + [Part Number]	18
+
+
+
+623	Junta do Semieixo do [Veículo] - [Marca] + [Part Number]	12
+624	Kit de Anéis de Camisa do [Veículo] - [Marca] + [Part Number]	12
+585	Junta do Coletor de Admissão e Escape do [Veículo] - [Marca] + [Part Number]	11
+586	Retentor da Suspensão do [Veículo] - [Marca] + [Part Number]	11
+595	Junta do Câmbio do [Veículo] - [Marca] + [Part Number]	10
+604	Jogo de Junta do Escapamento do [Veículo] - [Marca] + [Part Number]	9
+342	Vedador do Mancal + do [Veículo] - [Marca] + [Part Number]	9
+625	Kit do Retentor do Virabrequim do [Veículo] - [Marca] + [Part Number]	8
+617	Jogo de Juntas da Turbina do [Veículo] - [Marca] + [Part Number]	8
+589	Retentor de Óleo do [Veículo] - [Marca] + [Part Number]	8
+629	Retentor do Eixo Traseiro do [Veículo] - [Marca] + [Part Number]	7
+638	Junta do Flange de Escapamento do [Veículo] - [Marca] + [Part Number]	7
+627	Retentor do Eixo do Motor de Partida do [Veículo] - [Marca] + [Part Number]	7
+630	Calço para Camisa do [Veículo] - [Marca] + [Part Number]	6
+287	Retentor do Compressor de Ar + do [Veículo] - [Marca] + [Part Number]	6
+616	Diafragma da Cuíca de Freio do [Veículo] - [Marca] + [Part Number]	6
+619	Junta da Bomba Injetora do [Veículo] - [Marca] + [Part Number]	5
+642	Junta da Válvula Termostática do [Veículo] - [Marca] + [Part Number]	5
+643	Junta da Tampa da Caixa de Mudança do [Veículo] - [Marca] + [Part Number]	5
+628	Retentor do Eixo do Diferencial do [Veículo] - [Marca] + [Part Number]	5
+618	Junta da Bomba de Óleo do [Veículo] - [Marca] + [Part Number]	5
+622	Jogo de Juntas do Trocador de Calor do [Veículo] - [Marca] + [Part Number]	4
+644	Junta da Tampa do Diferencial do [Veículo] - [Marca] + [Part Number]	4
+621	Jogo Juntas do Radiador de Óleo do [Veículo] - [Marca] + [Part Number]	3
+63	Kit de Reparo da Junta Homocinética + do [Veículo] - [Marca] + [Part Number]	3
+632	Vedação da Tampa de Válvula do [Veículo] - [Marca] + [Part Number]	3
+639	Junta do Radiador de Óleo do [Veículo] - [Marca] + [Part Number]	3
+636	Junta do Compressor de Ar do [Veículo] - [Marca] + [Part Number]	3
+641	Tampão do Eixo de Comando do [Veículo] - [Marca] + [Part Number]	3
+611	Junta do Sistema de Arrefecimento do [Veículo] - [Marca] + [Part Number]	2
+620	Junta da Bomba de Combustível do [Veículo] - [Marca] + [Part Number]	2
+634	Anel de Vedação da Camisa do [Veículo] - [Marca] + [Part Number]	2
+631	Coberta do Virabrequim do [Veículo] - [Marca] + [Part Number]	2
+588	Retentor do Motor Elétrico do [Veículo] - [Marca] + [Part Number]	1
+633	Jogo de Anéis de Vedação da Camisa do [Veículo] - [Marca] + [Part Number]	1

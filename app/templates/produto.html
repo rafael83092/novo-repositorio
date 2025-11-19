@@ -1,0 +1,77 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="container mt-4">
+
+    <h2 class="mb-4">📦 Lista de Produtos</h2>
+
+    <!-- 🔍 Formulário de busca -->
+    <form method="GET" action="{{ url_for('catalogo.produto') }}" class="row g-2 mb-4">
+        <div class="col-md-6">
+            <input type="text" name="termo" class="form-control" placeholder="Buscar por SKU ou Nome"
+                   value="{{ termo }}">
+        </div>
+        <div class="col-md-2">
+            <button class="btn btn-primary w-100">Buscar</button>
+        </div>
+    </form>
+
+    <!-- 🧮 Tabela de produtos -->
+    <div class="table-responsive">
+        <table class="table table-hover table-bordered text-center">
+            <thead class="table-dark">
+                <tr>
+                    <th><a href="?order=sku&termo={{ termo }}">SKU</a></th>
+                    <th><a href="?order=nome_site&termo={{ termo }}">Nome</a></th>
+                    <th><a href="?order=seller&termo={{ termo }}">Seller</a></th>
+                    <th><a href="?order=preco&termo={{ termo }}">Preço</a></th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for p in produtos %}
+                <tr>
+                    <td>{{ p.sku }}</td>
+                    <td>{{ p.nome_site }}</td>
+                    <td>{{ p.seller }}</td>
+
+                    <!-- 💰 Preço formatado corretamente -->
+                    <td>R$ {{ "%.2f"|format(p.preco) }}</td>
+
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <!-- 📄 Paginação -->
+    <nav>
+        <ul class="pagination justify-content-center mt-4">
+
+            <!-- Botão voltar -->
+            {% if page > 1 %}
+            <li class="page-item">
+                <a class="page-link" href="?page={{ page-1 }}&termo={{ termo }}">Anterior</a>
+            </li>
+            {% endif %}
+
+            <!-- Números -->
+            {% for i in range(1, total_pages + 1) %}
+            <li class="page-item {% if i == page %}active{% endif %}">
+                <a class="page-link" href="?page={{ i }}&termo={{ termo }}">{{ i }}</a>
+            </li>
+            {% endfor %}
+
+            <!-- Botão avançar -->
+            {% if page < total_pages %}
+            <li class="page-item">
+                <a class="page-link" href="?page={{ page+1 }}&termo={{ termo }}">Próxima</a>
+            </li>
+            {% endif %}
+
+        </ul>
+    </nav>
+
+</div>
+
+{% endblock %}
